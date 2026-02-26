@@ -10,5 +10,6 @@ server:
     port: 7000
 
 feature:
-    flag: true
+    flag: false
+
 
