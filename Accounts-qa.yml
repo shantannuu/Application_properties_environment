@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/AccountQA
+        driver-class-name: org.postgresql.Driver
+        username: "{cipher}30648c2ecb56c68f2ebfff9895dc3733dbdb12a79ba7f809697c52adeedb5b2b"
+        password: "{cipher}a18358b43965f898fb54a5bca157b2e680b1e8fc4e1d6cfe2eb285c7010e25dc"
+
+server:
+    port: 6000
