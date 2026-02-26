@@ -6,4 +6,8 @@ spring:
         password: "{cipher}a18358b43965f898fb54a5bca157b2e680b1e8fc4e1d6cfe2eb285c7010e25dc"
 
 server:
+
     port: 9000
+
+feature:
+    flag: true
