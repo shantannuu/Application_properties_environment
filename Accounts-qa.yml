@@ -5,12 +5,27 @@ spring:
         username: "{cipher}30648c2ecb56c68f2ebfff9895dc3733dbdb12a79ba7f809697c52adeedb5b2b"
         password: "{cipher}a18358b43965f898fb54a5bca157b2e680b1e8fc4e1d6cfe2eb285c7010e25dc"
 
-server:
+    sql:
+      init:
+        mode: always
+    jpa:
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+        ddl-auto: create
+      defer-datasource-initialization: true
+      show-sql: true
+      open-in-view: false
+      properties:
+        hibernate:
+          format_sql: true
 
+server:
     port: 7000
 
 feature:
     flag: true
+  
+
 
 
 
